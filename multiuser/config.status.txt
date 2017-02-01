@@ -1,0 +1,15 @@
+bit     value       meaning
+===============================================================
+0       1           Guest book opening
+1       2           Allow to write message by guest
+2       4           Allow to search message by guest
+3       8           Enable guest image(portrait) for messsages
+4       16          Message need to be audit before publish
+5       32          Enable whisper feature
+6       64          Enable whisper encryption feature
+7       128         Allow guest reply message
+8       256         Enable statistics
+
+28      268435456   Leave message is disabled by web master
+29      536870912   Administrator login is disabled by web master
+30      1073741824  Whole account is disabled by web master

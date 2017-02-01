@@ -1,0 +1,17 @@
+bit     value   meaning
+===============================================================
+0       1       Check field name
+1       2       Check field email
+2       4       Check field QQ
+3       8       Check field Skype
+4       16      Check field homepage
+5       32      Check field title
+6       64      Check field content
+7       128     (reserved)
+8       256     Match by pure text
+9       512     Match by wildcard
+10      1024    Match by Regular expression single line mode
+11      2048    Match by Regular expression multi line mode
+12      4096    Set message waiting to audit if matches
+13      8192    Matching is case sensitive
+14      16384   Ban message if matches

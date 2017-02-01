@@ -1,0 +1,12 @@
+bit     value   meaning
+===============================================================
+0       1       HTML support enabled
+1       2       UBB support enabled
+2       4       New line wrap enabled
+3       8       Message is hidden by administrator
+4       16      Message is waiting to audit
+5       32      Message is whisper
+6       64      Whisper is encrypted
+7       128     Inform guest by email if replied
+8       256     Contact information is hidden by administrator
+9       512     Guest cannot reply this message

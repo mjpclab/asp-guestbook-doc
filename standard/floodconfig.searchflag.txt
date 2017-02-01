@@ -1,0 +1,12 @@
+bit     value   meaning
+===============================================================
+0       1       Search for new message
+1       2       Search for new guest reply
+2       4       (reserved)
+3       8       (reserved)
+4       16      Match policy: include
+5       32      Match policy: equal
+6       64      (reserved)
+7       128     (reserved)
+8       256     Check field title
+9       512     Check field content
